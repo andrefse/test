@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+
+from tkinter import Tk, Label, Button
+from tkinter.messagebox import showinfo
+from time import strftime, localtime
+
+def clicked():
+    time = strftime('Day: %d %b %Y\nTime: %H:%M:%S%p\n', localtime())
+    showinfo(message=time)
+
+
+root = Tk()
+button = Button(root, text='clique', command=clicked)
+button.pack()
+root.mainloop()

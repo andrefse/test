@@ -1,0 +1,4 @@
+Olá classe0!
+Olá classe1!
+Olá classe2!
+Olá classe3!
